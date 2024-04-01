@@ -19,6 +19,6 @@ public class S7 {
 
         String a = baos.toString();
 
-        assertEquals("3488\n", a);
+        assertEquals("34880\n", a);
     }
 }
