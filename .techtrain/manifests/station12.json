@@ -7,7 +7,7 @@
       "type": "junit-compat",
       "command": "mvn test -Dtest=S12",
       "shell": true,
-      "reportFile": "target/surefire-reports/TEST-com.example.station12.S12.xml"
+      "reportFile": "target/surefire-reports/TEST-com.example.station11_12.S12.xml"
     }
   ]
 }
