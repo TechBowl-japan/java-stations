@@ -83,7 +83,16 @@ Visual Studio Code で Java 開発を行うために Microsoft が公式に提�
 6. TechTrain Railway のアイコンをクリックすると、ログインが要求されますので、TechTrainにご登録のIDとパスワードでログインします。
 7. ログインに成功すると、該当するRailwayの内容が表示されます。以上で、TechTrain Railway のVSCode Extension のインストールが完了です。
 
-### 5. 最後に
+### 5. Extension Pack for Java のインストール
+
+Extension Pack for Java は、Java開発に必要な拡張機能をまとめて提供する拡張機能パックです。Java開発に必要な拡張機能がまとめてインストールされるため、Java開発環境のセットアップが簡単に行えます。
+
+1. Visual Studio Code を開いてください
+2. 左側のアクティビティバーから「Extensions」をクリックしてください
+3. 検索バーに `Extension Pack for Java` と入力してください
+4. Extension Pack for Java の拡張機能が表示されるので、インストールボタンをクリックしてください
+
+### 6. 最後に
 
 以上で開発環境のセットアップが完了しました。問題に取り組む準備が整いましたので、TechTrainの指示に従って問題に取り組んでください。
 
