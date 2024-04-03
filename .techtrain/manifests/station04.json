@@ -1,0 +1,13 @@
+{
+  "name": "Station 04",
+  "id": 763,
+  "prepare": [],
+  "tests": [
+    {
+      "type": "junit-compat",
+      "command": "mvn test -Dtest=S4",
+      "shell": true,
+      "reportFile": "target/surefire-reports/TEST-com.example.station4.S4.xml"
+    }
+  ]
+}
