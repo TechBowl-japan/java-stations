@@ -53,7 +53,7 @@ TechTrainで案内される内容に従い、このリポジトリを使って�
 Extension Pack for Java は、Java開発に必要な拡張機能をまとめて提供する拡張機能パックです。Java開発に必要な拡張機能がまとめてインストールされるため、Java開発環境のセットアップが簡単に行えます。
 
 1. Visual Studio Code を開いてください
-2. 左側のアクティビティバーから「Extensions」をクリックしてください
+2. 左側のアクティビティバーから「Extensions」をクリックしてください（日本語プラグインを入れている場合は「拡張機能」をクリック）
 3. 検索バーに `Extension Pack for Java` と入力してください
 4. Extension Pack for Java の拡張機能が表示されるので、インストールボタンをクリックしてください
 
