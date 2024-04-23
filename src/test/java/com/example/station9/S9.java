@@ -14,6 +14,7 @@ public class S9 {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         PrintStream out = new PrintStream(baos);
         System.setOut(out);
+        String br = System.getProperty("line.separator");
 
         Main.test(new int[]{100, 200});
         Main.test(new int[]{1200, 1500, 1400});
@@ -22,6 +23,6 @@ public class S9 {
 
         String a = baos.toString();
 
-        assertEquals("A\nA\nB\nC\n", a);
+        assertEquals("A" + br + "A" + br + "B" + br + "C" + br, a);
     }
 }

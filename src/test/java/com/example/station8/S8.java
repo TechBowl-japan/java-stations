@@ -14,25 +14,26 @@ public class S8 {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         PrintStream out = new PrintStream(baos);
         System.setOut(out);
+        String br = System.getProperty("line.separator");
 
         Main.question1(1000);
-        assertEquals("送料800円を追加します\n1800\n", baos.toString());
+        assertEquals("送料800円を追加します" + br + "1800" + br, baos.toString());
         baos.reset();
 
         Main.question1(9000);
-        assertEquals("送料800円を追加します\n9800\n", baos.toString());
+        assertEquals("送料800円を追加します" + br + "9800" + br, baos.toString());
         baos.reset();
 
         Main.question1(9999);
-        assertEquals("送料800円を追加します\n10799\n", baos.toString());
+        assertEquals("送料800円を追加します" + br + "10799" + br, baos.toString());
         baos.reset();
 
         Main.question1(10000);
-        assertEquals("10000\n", baos.toString());
+        assertEquals("10000" + br, baos.toString());
         baos.reset();
 
         Main.question1(20000);
-        assertEquals("20000\n", baos.toString());
+        assertEquals("20000" + br, baos.toString());
         baos.reset();
     }
 
@@ -41,21 +42,22 @@ public class S8 {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         PrintStream out = new PrintStream(baos);
         System.setOut(out);
+        String br = System.getProperty("line.separator");
 
         Main.question2(1);
-        assertEquals("食品\n", baos.toString());
+        assertEquals("食品" + br, baos.toString());
         baos.reset();
 
         Main.question2(2);
-        assertEquals("家電\n", baos.toString());
+        assertEquals("家電" + br, baos.toString());
         baos.reset();
 
         Main.question2(3);
-        assertEquals("家具\n", baos.toString());
+        assertEquals("家具" + br, baos.toString());
         baos.reset();
 
         Main.question2(99);
-        assertEquals("その他\n", baos.toString());
+        assertEquals("その他" + br, baos.toString());
         baos.reset();
 
         Main.question2(100);

@@ -18,7 +18,8 @@ public class S1 {
         Main.main(null);
 
         String a = baos.toString();
+        String br = System.getProperty("line.separator");
 
-        assertEquals("Hello TechTrain!\n", a);
+        assertEquals("Hello TechTrain!" + br, a);
     }
 }
