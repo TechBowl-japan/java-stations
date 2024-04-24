@@ -18,7 +18,8 @@ public class S6 {
         Main.main(null);
 
         String a = baos.toString();
+        String br = System.getProperty("line.separator");
 
-        assertEquals("39.2\n", a);
+        assertEquals("39.2" + br, a);
     }
 }

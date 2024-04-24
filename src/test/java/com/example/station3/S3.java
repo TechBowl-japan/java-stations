@@ -18,7 +18,8 @@ public class S3 {
         Main.main(null);
 
         String a = baos.toString();
+        String br = System.getProperty("line.separator");
 
-        assertEquals("/^^^^^^^^^^^\\\n|\"TechTrain\"|\n\\___________/\n", a);
+        assertEquals("/^^^^^^^^^^^\\" + br + "|\"TechTrain\"|" + br + "\\___________/" + br, a);
     }
 }
