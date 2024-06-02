@@ -8,7 +8,7 @@ public class Main {
         // char charA = 'a';
         int intA = 42;
         // long longA = 1L;
-        // float floatA = 1.0f;
+        // float floatA = 1.0F;
         double doubleA = 3.141592;
         System.out.println(isA);
         System.out.println(intA);
