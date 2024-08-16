@@ -16,5 +16,25 @@ public class Main {
     }
 
     // ここから
+    class Item {
+        String name;
+        int price;
+        String category;
+        String[] tags;
+
+        Item (String name, int price, String category,  String[] tags) {
+            this.name = name;
+            this.price = price;
+            this.category = category;
+            this.tags = tags;
+        }
+        float getPriceWithTax (boolean isKeigenzeiritu) {
+            if(isKeigenzeiritu == true) {
+                return price * 1.08f;
+            } else {
+                return price * 1.1f;
+            }
+        }
+    }
     // ここまで
 }
