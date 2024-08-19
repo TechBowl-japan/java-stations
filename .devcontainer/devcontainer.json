@@ -1,0 +1,20 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
+
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "none",
+			"installMaven": "true",
+			"installGradle": "false"
+		},
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+
+	"customizations": {
+		"vscode":{
+			"extensions":[
+				"techtrain.railway-vscode"
+			]
+		}
+	}
+}
