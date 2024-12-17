@@ -21,11 +21,11 @@ Chrome、Safari、Edge などのブラウザをご用意ください。（※ Fi
 
 # 2. Java Railway を始めるための準備（Codespaces を使用する方は以降不要）
 
-## Windowsの場合
+## Windows の場合
 
 [Windows における環境構築手順](./docs/README-windows.md)を参照してください
 
-## macOSの場合
+## macOS の場合
 
 [macOS における環境構築手順](./docs/README-macos.md)を参照してください
 
