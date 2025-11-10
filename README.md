@@ -22,7 +22,7 @@ Chrome、Safari、Edge などのブラウザをご用意ください。（※ Fi
 5. Railway VSCode 拡張機能
 
 上記 5 つをインストールする必要があります。インストールできているかの確認やインストール方法は、
-[Railway 準備編](https://www.notion.so/techbowl/Railway-ceba695d5014460e9733c2a46318cdec) をご確認いただき、挑戦の準備をしましょう。※ GitHub Codespaces についての資料はスキップしてください。
+[Railway 準備編](https://techbowl.notion.site/Railway-ceba695d5014460e9733c2a46318cdec) をご確認いただき、挑戦の準備をしましょう。※ GitHub Codespaces についての資料はスキップしてください。
 
 # 2. Java Railway を始めるための準備（Codespaces を使用する方は以降不要）
 
@@ -45,4 +45,4 @@ Extension Pack for Java は、Java 開発に必要な拡張機能をまとめて
 
 # 4. その他
 
-リポジトリの更新の仕方や、トラブルシューティングについても [Railway 準備編](https://www.notion.so/techbowl/Railway-ceba695d5014460e9733c2a46318cdec) にございますので、何かあった際はまずはそちらを確認してみてください。
+リポジトリの更新の仕方や、トラブルシューティングについても [Railway 準備編](https://techbowl.notion.site/Railway-ceba695d5014460e9733c2a46318cdec) にございますので、何かあった際はまずはそちらを確認してみてください。
